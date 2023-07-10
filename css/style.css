@@ -49,17 +49,17 @@ body {
 
 .flower-container {
     display: flex;
-    gap: 20px;
-    align-items: center;
+    justify-content: space-around;
 
 }
 
 
 .section-description {
-    padding: 50px 400px;
-    width: 500px;
+    padding: 30px 150px;
+    /* width: 500px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 30px;  */
+    text-align: center;
 }
 
 .section-title {
@@ -73,11 +73,13 @@ body {
 .flower-co-1 {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
+    padding: 20px 20px 0px 20px;
 }
 
 .flower2 {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(5, 151, 160, 0.15);
+    padding: 20px 20px 0px 20px;
 }
 
 .flower3 {
