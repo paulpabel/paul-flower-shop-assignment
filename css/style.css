@@ -55,7 +55,7 @@ body {
 
 
 .section-description {
-    padding:30px 300px;
+    padding: 30px 300px;
     width: 400px;
     margin-top: 30px;
     text-align: center;
@@ -146,6 +146,38 @@ body {
     font-size: 18px;
     width: 500px;
     padding-left: 500px;
-    
-    
+
+
+}
+
+/* section4 styles */
+
+.section4-banner {
+    margin: 20px auto;
+    background-image: url('../Rectangle\ 9.png');
+    background-size: cover;
+    max-width: 1200px;
+    max-height: 500px;
+    padding: 112px;
+
+
+}
+
+.section4-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section4-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+}
+
+.section4-input {
+    border-radius: 8px;
+    background: #FFF;
+  text-align: center;
 }
