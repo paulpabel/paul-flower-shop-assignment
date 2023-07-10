@@ -1,0 +1,21 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 30px 150px 0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+
+}
+.sub-container{
+    width: 500px;
+    }
+/* .flower-pic{
+    width: 200px;
+    position: right bottom;
+} */
