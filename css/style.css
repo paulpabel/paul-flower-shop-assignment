@@ -55,7 +55,7 @@ body {
 
 
 .section-description {
-    padding: 30px 300px;
+    padding:30px 300px;
     width: 400px;
     margin-top: 30px;
     text-align: center;
@@ -119,14 +119,33 @@ body {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
-   }
+}
 
 /* section3 styles */
 
-.flower-gallery{
+.flower-gallery {
     display: flex;
     gap: 18px;
     justify-content: space-around;
     padding: 50px 100px;
-   
+}
+
+.banner-heading2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.banner-description2 {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    width: 500px;
+    padding-left: 500px;
+    
+    
 }
