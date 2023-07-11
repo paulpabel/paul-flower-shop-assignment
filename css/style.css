@@ -51,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 
 }
 
@@ -73,18 +74,19 @@ body {
 .flower1 {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(167, 33, 98, 0.15);
-    /* padding: 20px 20px 0px 20px; */
+    padding: 20px 20px 0px 20px;
 }
 
 .flower2 {
     border-radius: 300px 300px 0px 0px;
     background-color: rgba(5, 151, 160, 0.15);
-    /* padding: 20px 20px 0px 20px; */
+    padding: 20px 20px 0px 20px;
 }
 
 .flower3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
+    padding: 20px 20px 0px 20px;
 }
 
 /* section 2 styles */
