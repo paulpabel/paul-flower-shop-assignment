@@ -153,16 +153,6 @@ body {
 
 /* section4 styles */
 
-/* .section4-banner {
-    margin: 20px auto;
-    background-image: url('../Rectangle\ 9.png');
-    background-size: cover;
-    max-width: 1200px;
-    max-height: 500px;
-    padding: 112px;
-
-
-} */
 
 .section4-heading {
     color: #272727;
@@ -180,23 +170,64 @@ body {
 input {
     border-radius: 8px;
     background: #FFF;
-    padding:20px 100px 20px 20px;
-    
-    
+    padding: 20px 100px 20px 20px;
+
+
 }
 
-.section4-banner{
+.section4-banner {
 
-max-width: 1200px;
-max-width: 500px;
-justify-content: center;
-align-items: center;
-margin: 40px auto;
-background-image: url('../Rectangle\ 9.png');
-background-size: cover;
-padding: 100px  550px;
+    max-width: 1200px;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    background-image: url('../Rectangle\ 9.png');
+    background-size: cover;
+    padding: 100px 550px;
 }
 
 
+/* footer styles section */
 
+footer {
+    align-items: center;
+    background: black;
+    margin: 50px 120px;
+    color: white;
+    padding: 100px;
 
+}
+
+.footer-heading {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+/* .footer-description,
+.footer-description2 {
+    text-align: center;
+
+} */
+
+.span-flo {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    width: 500px;
+    padding-left: 400px;
+}
+
+.footer-description2 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    }
