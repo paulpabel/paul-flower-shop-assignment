@@ -4,6 +4,8 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* header styles section......... */
+
 .container {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -15,7 +17,7 @@ body {
 }
 
 
-.sub-container {
+.container-content {
     width: 500px;
 }
 
@@ -46,6 +48,24 @@ body {
 
 }
 
+/* main>>>>>>>>section-1 styles.............. */
+
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+.section-description {
+    padding: 10px 700px;
+    width: 400px;
+    margin-top: 20px;
+    text-align: center;
+}
+
 
 .flower-container {
     display: flex;
@@ -55,21 +75,6 @@ body {
 
 }
 
-
-.section-description {
-    padding: 10px 700px;
-    width: 400px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.section-title {
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 40px;
-    margin-top: 150px;
-}
 
 .flower1 {
     border-radius: 300px 300px 0px 0px;
@@ -89,7 +94,8 @@ body {
     padding: 20px 20px 0px 20px;
 }
 
-/* section 2 styles */
+/* main>>>>>>>>>>>section-2 styles..................... */
+
 
 .banner {
     border-radius: 8px;
@@ -111,12 +117,13 @@ body {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-
 }
+
 
 .banner .flower-pic {
     width: 500px;
 }
+
 
 .banner-description {
     color: rgba(39, 39, 39, 0.60);
@@ -124,7 +131,10 @@ body {
     font-size: 18px;
 }
 
-/* section3 styles */
+
+
+/* main>>>>>>>>>section-3 styles.............. */
+
 
 .flower-gallery {
     display: flex;
@@ -139,8 +149,8 @@ body {
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
-
 }
+
 
 .banner-description2 {
     color: rgba(39, 39, 39, 0.60);
@@ -149,12 +159,23 @@ body {
     font-size: 18px;
     width: 500px;
     padding-left: 500px;
-
-
 }
 
-/* section4 styles */
 
+
+/* main>>>>>>>>section-4 styles...................... */
+
+
+.section4-banner {
+    max-width: 1200px;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    background-image: url('../Rectangle\ 9.png');
+    background-size: cover;
+    padding: 100px 550px;
+}
 
 .section4-heading {
     color: #272727;
@@ -173,24 +194,12 @@ input {
     border-radius: 8px;
     background: #FFF;
     padding: 20px 100px 20px 20px;
-
-
-}
-
-.section4-banner {
-
-    max-width: 1200px;
-    max-width: 500px;
-    justify-content: center;
-    align-items: center;
-    margin: 40px auto;
-    background-image: url('../Rectangle\ 9.png');
-    background-size: cover;
-    padding: 100px 550px;
 }
 
 
-/* footer styles section */
+
+/* 
+main>>>>>>>>>>footer styles.................... */
 
 footer {
     align-items: center;
@@ -208,17 +217,13 @@ footer {
 
 }
 
-/* .footer-description,
-.footer-description2 {
-    text-align: center;
-
-} */
 
 .span-flo {
     color: #E55473;
     font-size: 48px;
     font-weight: 800;
 }
+
 
 .footer-description {
     color: rgba(255, 255, 255, 0.90);
@@ -228,8 +233,9 @@ footer {
     padding-left: 400px;
 }
 
+
 .footer-description2 {
     text-align: center;
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
-    }
+}
