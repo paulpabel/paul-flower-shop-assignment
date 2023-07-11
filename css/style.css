@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
 }
 
 /* header styles section......... */
@@ -23,7 +23,6 @@ body {
 
 .container-heading {
     color: #272727;
-    font-family: Lato;
     font-size: 80px;
     font-weight: 800px;
     margin-bottom: 25px;
@@ -31,10 +30,7 @@ body {
 
 .container-description {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 30px;
     margin-bottom: 25px;
 }
@@ -54,15 +50,16 @@ body {
 .section-title {
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .section-description {
     padding: 10px 700px;
     width: 400px;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -146,7 +143,6 @@ body {
 .banner-heading2 {
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
 }
@@ -155,7 +151,6 @@ body {
 .banner-description2 {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     width: 500px;
     padding-left: 500px;
@@ -182,18 +177,29 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin-bottom: 20px;
+
 }
 
 .section4-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
+    margin-top: 0px;
 }
+
+.section4-label{
+    display: flex;
+}
+
+
+
 
 input {
     border-radius: 8px;
     background: #FFF;
-    padding: 20px 100px 20px 20px;
+    padding: 20px 300px 20px 20px;
+    border: none;
 }
 
 
@@ -216,6 +222,8 @@ footer {
     font-weight: 800;
 
 }
+
+
 
 
 .span-flo {
